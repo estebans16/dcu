@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   get 'sitios_de_interes' => 'home#links'
 
+  get 'ayuda' => 'home#ayuda'
 
   get 'certificado' => 'home#vista_certificado'
 

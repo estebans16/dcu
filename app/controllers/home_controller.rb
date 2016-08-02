@@ -17,4 +17,7 @@ class HomeController < ApplicationController
   def links    
   end
 
+  def ayuda
+  end
+
 end
