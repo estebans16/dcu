@@ -2,11 +2,13 @@ Rails.application.routes.draw do
   root :to => 'home#index'
   get '/informacion' => 'home#informacion'
 
-  get 'contacto' => 'contacto#vista_contacto'
+  get 'contacto' => 'home#vista_contacto'
 
-  get 'derechos' => 'derechos#vista_derechos'
+  get 'derechos' => 'home#vista_derechos'
 
-  get 'mapa' => 'mapasitio#vista_mapa'
+  get 'mapa' => 'home#vista_mapa'
+
+  get 'certificado' => 'home#vista_certificado'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

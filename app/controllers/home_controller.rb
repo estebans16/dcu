@@ -4,4 +4,14 @@ class HomeController < ApplicationController
 
   def informacion
   end
+
+  def vista_certificado
+  end
+
+  def vista_derechos
+  end
+
+  def vista_contacto
+  end
+
 end
