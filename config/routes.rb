@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   root :to => 'home#index'
+  get '/informacion' => 'home#informacion'
 
   get 'contacto' => 'contacto#vista_contacto'
 
