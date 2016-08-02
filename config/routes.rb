@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   get 'contacto' => 'contacto#vista_contacto'
 
   get 'sitios_de_interes' => 'home#links'
+  get 'derechos' => 'derechos#vista_derechos'
+
+  get 'mapa' => 'mapasitio#vista_mapa'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
