@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def informacion
   end
+
+  def links    
+  end
 end
