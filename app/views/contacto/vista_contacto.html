@@ -1,0 +1,28 @@
+<div class="panel panel-info">
+        <div class="panel-heading">
+          <h2 class="panel-title"><a href="#">Contacto: Envianos tu consulta</a></h2>
+        </div>
+        <div class="panel-body">
+        	Si tenes cualquier tipo de consulta no dudes en comunicarte ! te responderemos a la brevedad. Los campos obligatorios del formulario se marcan con un (*) <br><br>
+        	<div class='contact_form'>
+	         	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+					<div class="row">
+						<label for="name">Tu nombre:</label><br />
+						<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+					</div>
+					<div class="row">
+						<label for="email">Tu email: (*)</label><br />
+						<input id="email" class="input" name="email" type="text" value="" size="30" required="true"/>Debe tener la forma mail@mail.com <br />
+					</div>
+					<div class="row">
+						<label for="message">Tu mensaje: (*) </label><br />
+						<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+					</div>
+					<input class="btn btn-primary" id="submit_button" type="submit" value="Enviar email" />
+					<%= link_to "Cancelar", root_path, :class => "btn btn-default" %>
+				</form>		
+			</div>	
+
+        </div>
+</div>
+    
