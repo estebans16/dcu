@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
   get 'derechos' => 'derechos#vista_derechos'
 
+  get 'mapa' => 'mapasitio#vista_mapa'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -60,7 +60,6 @@
         </li>
         <li><%= link_to "Contacto", "/contacto"  %></li>
         <li><%= link_to "Links de interes", "#"  %></li>
-        <li><%= link_to "Mapa del sitio", "#"  %></li>
         <li><%= link_to "Ayuda", "#"  %></li>
       </ul>
     </div>
@@ -75,24 +74,36 @@
     </div>
     <div class="col-lg-3">
       <div class="well sidebar-nav">
-        <h3><%= link_to "Info-Igualdad", root_path  %></h3>
+        <h3><%= link_to "Mapa del sitio", root_path  %></h3>
         <hr>
         <ul class="nav nav-list">
-          <li class="nav-header">Contenido</li>
-          <li><%= link_to "Inicio", root_path  %></li>
+          <li class="nav-header">Pagina principal</li>
+          <li><%= link_to "Inicio de Info-Igualdad", root_path  %></li>
           <li>
-            <a class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-              Categorias <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              Categorias 
+            <ul>
               <li><a href="/informacion">Información</a></li>
               <li><a href="#">Beneficios</a></li>
             </ul>
           </li>
-          <li><%= link_to "Contacto", "#"  %></li>
-          <li><%= link_to "Links de interes", "#"  %></li>
-          <li><%= link_to "Mapa del sitio", "#"  %></li>
-          <li><%= link_to "Ayuda", "#"  %></li>
+          <li> 
+              <br>Comunicacion 
+            <ul>
+              <li><%= link_to "Contacto", "#"  %></li>
+            </ul>
+          </li>
+           <li> 
+              <br>Otra informacion 
+            <ul>
+              <li><%= link_to "Links de interes", "#"  %></li>
+            </ul>
+          </li>
+           <li> 
+              <br>Sobre el sitio
+            <ul>
+              <li><%= link_to "Ayuda", "#"  %></li>
+            </ul>
+          </li>
         </ul>
       </div><!--/.well -->
     </div><!--/span-->
