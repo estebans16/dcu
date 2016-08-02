@@ -59,7 +59,7 @@
           </ul>
         </li>
         <li><%= link_to "Contacto", "/contacto"  %></li>
-        <li><%= link_to "Links de interes", "#"  %></li>
+        <li><%= link_to "Sitios de interes", "/sitios_de_interes"  %></li>
         <li><%= link_to "Ayuda", "#"  %></li>
       </ul>
     </div>
@@ -74,32 +74,36 @@
     </div>
     <div class="col-lg-3">
       <div class="well sidebar-nav">
-        <h3><%= link_to "Mapa del sitio", root_path  %></h3>
+        <h3>Mapa del sitio</h3>
         <hr>
         <ul class="nav nav-list">
-          <li class="nav-header">Pagina principal</li>
-          <li><%= link_to "Inicio de Info-Igualdad", root_path  %></li>
+          <li>Pagina principal</li>
+          <li><ul><li><%= link_to "Inicio de Info-Igualdad", root_path  %></li></ul></li>
+          <br>
+          <li>Categorias</li>
           <li>
-              Categorias 
             <ul>
               <li><a href="/informacion">Información</a></li>
               <li><a href="#">Beneficios</a></li>
             </ul>
           </li>
-          <li> 
-              <br>Comunicacion 
+          <br>
+          <li>Comunicacion</li>
+          <li>
             <ul>
               <li><%= link_to "Contacto", "/contacto"  %></li>
             </ul>
           </li>
-           <li> 
-              <br>Otra informacion 
+          <br>
+           <li>Otra información</li>
+          <li>
             <ul>
-              <li><%= link_to "Links de interes", "#"  %></li>
+              <li><%= link_to "Sitios de interes", "/sitios_de_interes"  %></li>
             </ul>
           </li>
-           <li> 
-              <br>Sobre el sitio
+          <br>
+           <li>Sobre el sitio</li>
+          <li>
             <ul>
               <li><%= link_to "Ayuda", "#"  %></li>
             </ul>

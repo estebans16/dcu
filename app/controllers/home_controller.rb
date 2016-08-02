@@ -14,4 +14,7 @@ class HomeController < ApplicationController
   def vista_contacto
   end
 
+  def links    
+  end
+
 end

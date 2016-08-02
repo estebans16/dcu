@@ -1,12 +1,14 @@
 Rails.application.routes.draw do
   root :to => 'home#index'
-  get '/informacion' => 'home#informacion'
+
+  get 'informacion' => 'home#informacion'
 
   get 'contacto' => 'home#vista_contacto'
 
   get 'derechos' => 'home#vista_derechos'
 
-  get 'mapa' => 'home#vista_mapa'
+  get 'sitios_de_interes' => 'home#links'
+
 
   get 'certificado' => 'home#vista_certificado'
 
