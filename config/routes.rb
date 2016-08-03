@@ -13,6 +13,8 @@ Rails.application.routes.draw do
 
   get 'beneficios' => 'home#beneficios'
 
+  get 'listabeneficios' => 'home#listabeneficios'
+
   get 'certificado' => 'home#vista_certificado'
 
   # The priority is based upon order of creation: first created -> highest priority.

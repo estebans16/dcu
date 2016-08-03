@@ -23,4 +23,6 @@ class HomeController < ApplicationController
   def beneficios
   end
 
+  def listabeneficios
+  end
 end
