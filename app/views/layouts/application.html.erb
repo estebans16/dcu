@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <!--<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= content_for?(:title) ? yield(:title) : "Info-Igualdad" %></title>
   <%= csrf_meta_tags %>
@@ -74,12 +74,12 @@
     </div>
     <div class="col-lg-3">
       <div class="well sidebar-nav">
-        <h3>Mapa del sitio</h3>
+        <h2>Mapa del sitio</h2>
         <hr>
         <ul class="nav nav-list">
           <li>Pagina principal</li>
           <li><ul><li><%= link_to "Inicio de Info-Igualdad", root_path  %></li></ul></li>
-          
+
           <li>Categorias</li>
           <li>
             <ul>
@@ -87,21 +87,21 @@
               <li><a href="/beneficios">Beneficios</a></li>
             </ul>
           </li>
-         
+
           <li>Comunicacion</li>
           <li>
             <ul>
               <li><%= link_to "Contacto", "/contacto"  %></li>
             </ul>
           </li>
-          
+
            <li>Otra información</li>
           <li>
             <ul>
               <li><%= link_to "Sitios de interes", "/sitios_de_interes"  %></li>
             </ul>
           </li>
-         
+
            <li>Sobre el sitio</li>
           <li>
             <ul>
@@ -114,7 +114,24 @@
   </div><!--/row-->
 
   <footer>
-    <p class="text-right">&copy; Info-Igualdad 2016</p>
+    <p class="text-right">
+      <a href="http://achecker.ca/checker/index.php">
+        <img style="border:0;width:88px;height:31px"
+             src="https://www.w3.org/WAI/wcag2AA-blue-v.svg"
+             alt="Sitio accesible!" title="Enlace a validador de accecibilidad web ACHECKER" />
+      </a>
+      <a href="http://css-validator.org/check/referer">
+        <img style="border:0;width:88px;height:31px"
+             src="http://css-validator.org/images/vcss-blue.png"
+             alt="CSS válido!" title="Enlace al validador CSS de la W3C" />
+      </a>
+      <a href="https://validator.w3.org/">
+        <img style="border:0;width:88px;height:31px"
+             src="https://webster.cs.washington.edu/images/w3c-html-blue.png"
+             alt="HTML 5 válido!" title="Enlace al validador HTML de la W3C" />
+      </a>
+      <p class="text-right">&copy; Info-Igualdad 2016</p>
+    </p>
   </footer>
 
 </div> <!-- /container -->
