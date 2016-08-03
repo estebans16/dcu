@@ -14,6 +14,10 @@ class HomeController < ApplicationController
   def vista_contacto
   end
 
+  def consulta
+    render 'consulta'
+  end
+
   def links    
   end
 

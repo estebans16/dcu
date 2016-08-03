@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   get 'listabeneficios' => 'home#listabeneficios'
 
   get 'certificado' => 'home#vista_certificado'
+  post 'consulta' => 'home#consulta'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

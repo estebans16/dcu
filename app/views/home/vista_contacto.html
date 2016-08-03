@@ -11,12 +11,13 @@
             <div class="panel-body">
                 <div class="row">
                     <div class="col-lg-12">
-                        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                        <form id="contact_form" action="consulta" method="POST"  data-remote="true" renctype="multipart/form-data">
                             <div class="form-group">
                                 <label for="nombre">Tu nombre:</label>
                                 <input class="form-control" name="nombre" id="nombre" type="text"
                                        placeholder="Nombre completo">
                             </div>
+                            <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
                             <div class="form-group">
                                 <label for="telefono">Tu teléfono: (*)</label>
                                 <input class="form-control" name="telefono" id="telefono" type="tel"
