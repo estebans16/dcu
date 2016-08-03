@@ -20,4 +20,7 @@ class HomeController < ApplicationController
   def ayuda
   end
 
+  def beneficios
+  end
+
 end
