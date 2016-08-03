@@ -25,7 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # mysql
 gem 'mysql2', '~> 0.3.18'
-
+gem 'pg'
 # tzinfo
 gem 'tzinfo-data'
 
